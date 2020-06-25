@@ -41,7 +41,7 @@ h3{
 
 .bottom-container{
   background-color: #66BFBF;
-  padding: 40px 0 20px;
+  padding: 50px 0 20px;
 }
 .bottom-cloud{
   position: absolute;
@@ -59,34 +59,6 @@ h3{
   border-radius: 100%;
 }
 
-.education{
-  width: 50%;
-  margin:100px auto;
-  margin: auto;
-  text-align: center;
-  line-height: 2;
-}
-
-.table{
-    margin:0px auto 30px auto;
-  width: 70%;
-      line-height: 1;
-}
-
-.work{
-    width: 50%;
-    margin:100px auto;
-    margin: auto;
-    text-align: center;
-    line-height: 2;
-}
-
-.projects{
-    margin:0px auto 30px auto;
-  width: 70%;
-      line-height: 1;
-
-}
 
 .skill_row{
   width: 50%;
@@ -164,12 +136,43 @@ a{
 }
 
 a:hover{
-  color: blue;
+  color: #EAF6F6;
 }
-
 
 .copy-right{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+@media (max-width: 840px) {
+  .top-container{
+    margin-left: -100%;
+  }
+
+  .middle-container{
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    clear: both;
+  }
+
+  .contact-me{
+  margin-right: 0;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .top-container{
+    float: none;
+    width: 100%;
+    clear: both;
+    margin-left: 0;
+  }
+
+
+  .contact-me{
+  margin-right: 0;
+  }
 }
