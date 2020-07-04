@@ -1,0 +1,138 @@
+/* body */
+body {
+text-align: center;
+    position: relative;
+  background-color: transpernat;
+  font-family: 'Muli', 'Roboto', sans-serif;
+}
+
+
+/* navbar */
+.navbar{
+   padding:2px 25px;
+   height: auto;
+}
+
+.navbar-brand{
+  font-family: 'Muli', 'Roboto', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 2px 18px;
+}
+
+.nav-link{
+    font-family: 'Muli', 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+
+/* Title */
+
+
+.container-fluid{
+  padding: 10% 5%;
+}
+
+#d {
+    font-family: 'Muli', 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+h4 {
+  color: #36464f;
+  line-height: 30px;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.title-img{
+  width: 70%;
+  transform: rotate(23deg);
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  bottom: -50px;
+}
+
+.hearderset {
+    padding-top: 8px;
+    border-spacing: border-box;
+}
+
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  h1{
+    color: red;
+    font-size: 60px;
+  }
+}
+@media (max-width: 995px) {
+
+  #title{
+    text-align: center;
+    z-index: 1;
+  }
+
+  .title-img{
+    width: 60%;
+    transform: rotate(0deg);
+    position: relative;
+    right: 0%;
+  }
+}
+
+/*container */
+
+
+
+#s2 {
+  font-family: 'Muli', 'Roboto', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#f {
+    font-size: 15px;
+  font-family: 'Muli', 'Roboto', sans-serif;
+}
+
+.container2 {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 60px 90px 60px 90px;
+}
+
+/* 2 container */
+
+.pricecard{
+  padding: 5% 2%;
+}
+
+.p-text{
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* background color */
+.white-section{
+background-color:  #00bfff;
+}
+/*  4 container  */
+
+.t-img{
+  width: 10%;
+}
+
+.t-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
